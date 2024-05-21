@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* nav-bar start*/
+nav{
+display: flex;
+justify-content: space-evenly;
+border: solid 3px black;
+background-color: rgb(188, 117, 255);
+}
+
+.list-item{
+display: flex;
+align-items: center;
+font-size: large;
+gap: 20px;
+list-style: none;
+}
+/* nav-bar end*/
+
+
+/*main page start*/
+.container{
+    border: 3px solid black;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.item1{
+    border: 3px solid black;
+}
+
+.item2{
+    border: 3px solid blue;
+
+}
+
+.item3{
+    border: 3px solid red;
+
+}
+
+.item4{
+    display: grid;
+    border: 3px solid yellow;
+    grid-columns: 1/-1;
+
+
+}
+
